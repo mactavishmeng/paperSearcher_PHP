@@ -1,0 +1,583 @@
+CRITICAL - 2022-09-15 00:40:32 --> Class "CodeIgniter\Database\SQLite\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('SQLite', 'CodeIgniter\\Database\\SQLite\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:40:38 --> Class "CodeIgniter\Database\SQLite\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('SQLite', 'CodeIgniter\\Database\\SQLite\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:41:00 --> Class "CodeIgniter\Database\SQLite\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('SQLite', 'CodeIgniter\\Database\\SQLite\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:42:36 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:44:56 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:44:57 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:46:46 --> Class "CodeIgniter\Database\SQLite\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('SQLite', 'CodeIgniter\\Database\\SQLite\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:48:47 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:48:49 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:49:12 --> Class "CodeIgniter\Database\SQLite\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('SQLite', 'CodeIgniter\\Database\\SQLite\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:49:13 --> Class "CodeIgniter\Database\SQLite\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('SQLite', 'CodeIgniter\\Database\\SQLite\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:49:20 --> Class "CodeIgniter\Database\SQLite\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('SQLite', 'CodeIgniter\\Database\\SQLite\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:49:36 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:50:06 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:50:18 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:50:18 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:50:19 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH/Database/Database.php on line 136.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(78): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(137): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(126): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(83): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(817): CodeIgniter\Config\Factories::models('App\\Controllers\\PaperModel', [...], null)
+ 7 APPPATH/Controllers/Pages.php(16): model('App\\Controllers\\PaperModel')
+ 8 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 9 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:51:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/PaperModel.php(11): CodeIgniter\Model->__call('where', [...])
+ 4 APPPATH/Controllers/Pages.php(17): App\Models\PaperModel->getPaper('1234')
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:52:15 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/PaperModel.php(11): CodeIgniter\Model->__call('where', [...])
+ 4 APPPATH/Controllers/Pages.php(17): App\Models\PaperModel->getPaper('1234')
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 00:59:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 872.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/PaperModel.php(11): CodeIgniter\Model->__call('where', [...])
+ 4 APPPATH/Controllers/Pages.php(17): App\Models\PaperModel->getPaper('1234')
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->views('1234')
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 01:17:19 --> foreach() argument must be of type array|object, string given
+in APPPATH/Controllers/Pages.php on line 17.
+ 1 APPPATH/Controllers/Pages.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH/Controllers/Pages.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('abcde', 'ROOTPATH/public', 'ROOTPATH/public')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 01:17:40 --> foreach() argument must be of type array|object, string given
+in APPPATH/Controllers/Pages.php on line 17.
+ 1 APPPATH/Controllers/Pages.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH/Controllers/Pages.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('abcde', 'ROOTPATH/public', 'ROOTPATH/public')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 01:24:59 --> Call to undefined function App\Controllers\vardump()
+in APPPATH/Controllers/Pages.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('|ab|cde', 'ROOTPATH/public', 'ROOTPATH/public')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 01:29:35 --> syntax error, unexpected token ")"
+in APPPATH/Controllers/Pages.php on line 29.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Pages.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pages')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pages')
+ 4 SYSTEMPATH/CodeIgniter.php(857): class_exists('\\App\\Controllers\\Pages', true)
+ 5 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 01:32:45 --> Call to undefined method App\Models\PaperModel::getPaper
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Pages.php(41): CodeIgniter\Model->__call('getPaper', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('|| ab|cde||', 'ROOTPATH/public', 'ROOTPATH/public')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 01:32:56 --> Call to undefined method App\Models\PaperModel::getPaper
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/Pages.php(41): CodeIgniter\Model->__call('getPaper', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('|| ab|cde||', 'ROOTPATH/public', 'ROOTPATH/public')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 01:39:58 --> trim(): Argument #2 ($characters) must be of type string, array given
+in APPPATH/Controllers/Pages.php on line 19.
+ 1 APPPATH/Controllers/Pages.php(19): trim('|| ab|cde||', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('|| ab|cde||', 'ROOTPATH/public', 'ROOTPATH/public')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 01:41:11 --> Maximum execution time of 60 seconds exceeded
+in APPPATH/Controllers/Pages.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-15 01:54:04 --> Undefined variable $key_arr
+in APPPATH/Controllers/Pages.php on line 42.
+ 1 APPPATH/Controllers/Pages.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key_arr', 'APPPATH/Controllers/Pages.php', 42)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('a b | cd +e', 'ROOTPATH/public', 'ROOTPATH/public')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 02:02:55 --> Unsupported operand types: string + string
+in APPPATH/Controllers/Pages.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('a b | cd +e', 'ROOTPATH/public', 'ROOTPATH/public')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 02:13:21 --> CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in /Users/mengfanchao/其他/codeigniter4/system/Model.php on line 772
+in SYSTEMPATH/Database/BaseBuilder.php on line 1460.
+ 1 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->limit('ROOTPATH/public', 'ROOTPATH/public')
+ 2 APPPATH/Models/PaperModel.php(41): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH/Controllers/Pages.php(17): App\Models\PaperModel->search('blockchain|', 'ROOTPATH/public', 'ROOTPATH/public')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('blockchain', 'ROOTPATH/public', 'ROOTPATH/public')
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 02:13:48 --> CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in /Users/mengfanchao/其他/codeigniter4/system/Model.php on line 772
+in SYSTEMPATH/Database/BaseBuilder.php on line 1460.
+ 1 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->limit('ROOTPATH/public', 'ROOTPATH/public')
+ 2 APPPATH/Models/PaperModel.php(41): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH/Controllers/Pages.php(17): App\Models\PaperModel->search('blockchain|', 'ROOTPATH/public', 'ROOTPATH/public')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('blockchain', 'ROOTPATH/public', 'ROOTPATH/public')
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 02:14:33 --> CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in /Users/mengfanchao/其他/codeigniter4/system/Model.php on line 772
+in SYSTEMPATH/Database/BaseBuilder.php on line 1460.
+ 1 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->limit('ROOTPATH/public', 'ROOTPATH/public')
+ 2 APPPATH/Models/PaperModel.php(41): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH/Controllers/Pages.php(17): App\Models\PaperModel->search('blockchain|', 'ROOTPATH/public', 'ROOTPATH/public')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('blockchain', 'ROOTPATH/public', 'ROOTPATH/public')
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 02:15:04 --> CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in /Users/mengfanchao/其他/codeigniter4/system/Model.php on line 772
+in SYSTEMPATH/Database/BaseBuilder.php on line 1460.
+ 1 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->limit('ROOTPATH/public', 'ROOTPATH/public')
+ 2 APPPATH/Models/PaperModel.php(41): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH/Controllers/Pages.php(19): App\Models\PaperModel->search('blockchain|', 'ROOTPATH/public', 'ROOTPATH/public')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('blockchain', 'ROOTPATH/public', 'ROOTPATH/public')
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 02:21:24 --> Call to undefined method CodeIgniter\Database\SQLite3\Connection::lastQuery()
+in APPPATH/Models/PaperModel.php on line 40.
+ 1 APPPATH/Controllers/Pages.php(20): App\Models\PaperModel->search('blockchain|', 10, 0)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('blockchain', 10, 0)
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 02:22:20 --> Array to string conversion
+in APPPATH/Controllers/Pages.php on line 23.
+ 1 APPPATH/Controllers/Pages.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH/Controllers/Pages.php', 23)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('blockchain', 10, 0)
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-09-15 02:43:59 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, no such column: article_id in /Users/mengfanchao/其他/codeigniter4/system/Database/SQLite3/Connection.php:131
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', '/Users/mengfanc...', 131)
+#1 /Users/mengfanchao/其他/codeigniter4/system/Database/SQLite3/Connection.php(131): SQLite3->query('SELECT `title`,...')
+#2 /Users/mengfanchao/其他/codeigniter4/system/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `title`,...')
+#3 /Users/mengfanchao/其他/codeigniter4/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`,...')
+#4 /Users/mengfanchao/其他/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `title`,...', Array, false)
+#5 /Users/mengfanchao/其他/codeigniter4/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#6 /Users/mengfanchao/其他/codeigniter4/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 /Users/mengfanchao/其他/codeigniter4/app/Models/PaperModel.php(48): CodeIgniter\BaseModel->first()
+#8 /Users/mengfanchao/其他/codeigniter4/app/Controllers/Pages.php(27): App\Models\PaperModel->abstract('1234')
+#9 /Users/mengfanchao/其他/codeigniter4/system/CodeIgniter.php(907): App\Controllers\Pages->abstract('1234')
+#10 /Users/mengfanchao/其他/codeigniter4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#11 /Users/mengfanchao/其他/codeigniter4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /Users/mengfanchao/其他/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 /Users/mengfanchao/其他/codeigniter4/system/Commands/Server/rewrite.php(43): require_once('/Users/mengfanc...')
+#14 {main}
+CRITICAL - 2022-09-15 02:43:59 --> SQLite3::query(): Unable to prepare statement: 1, no such column: article_id
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 131.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(): Unable to prepare statement: 1, no such column: article_id', 'SYSTEMPATH/Database/SQLite3/Connection.php', 131)
+ 2 SYSTEMPATH/Database/SQLite3/Connection.php(131): SQLite3->query('SELECT `title`, `abstract`
+FROM `paper`
+WHERE `article_id` = \'1234\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `title`, `abstract`
+FROM `paper`
+WHERE `article_id` = \'1234\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`, `abstract`
+FROM `paper`
+WHERE `article_id` = \'1234\'
+ LIMIT 1')
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `title`, `abstract`
+FROM `paper`
+WHERE `article_id` = :article_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Models/PaperModel.php(48): CodeIgniter\BaseModel->first()
+ 9 APPPATH/Controllers/Pages.php(27): App\Models\PaperModel->abstract('1234')
+10 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->abstract('1234')
+11 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+12 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:00:50 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\./writable/static
+in SYSTEMPATH/Router/Router.php on line 466.
+ 1 SYSTEMPATH/Router/Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\./writable/static')
+ 2 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('static/index.html')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('static/index.html')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:09:23 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\./writable/static
+in SYSTEMPATH/Router/Router.php on line 466.
+ 1 SYSTEMPATH/Router/Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\./writable/static')
+ 2 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('static/index.html')
+ 3 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('static/index.html')
+ 4 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:35:56 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 12
+in SYSTEMPATH/Router/Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 12', 'SYSTEMPATH/Router/Router.php', 418)
+ 2 SYSTEMPATH/Router/Router.php(418): preg_match('#^search/(.*))$#u', 'search', [])
+ 3 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('search')
+ 4 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('search')
+ 5 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:36:19 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 12
+in SYSTEMPATH/Router/Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 12', 'SYSTEMPATH/Router/Router.php', 418)
+ 2 SYSTEMPATH/Router/Router.php(418): preg_match('#^search/(.*))$#u', 'search', [])
+ 3 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('search')
+ 4 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('search')
+ 5 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:36:29 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 12
+in SYSTEMPATH/Router/Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 12', 'SYSTEMPATH/Router/Router.php', 418)
+ 2 SYSTEMPATH/Router/Router.php(418): preg_match('#^search/(.*))$#u', 'search', [])
+ 3 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('search')
+ 4 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('search')
+ 5 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:36:54 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 12
+in SYSTEMPATH/Router/Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 12', 'SYSTEMPATH/Router/Router.php', 418)
+ 2 SYSTEMPATH/Router/Router.php(418): preg_match('#^search/(.*))$#u', 'search', [])
+ 3 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('search')
+ 4 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('search')
+ 5 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:37:29 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 12
+in SYSTEMPATH/Router/Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 12', 'SYSTEMPATH/Router/Router.php', 418)
+ 2 SYSTEMPATH/Router/Router.php(418): preg_match('#^search/(.*))$#u', 'search', [])
+ 3 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('search')
+ 4 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('search')
+ 5 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:37:35 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 12
+in SYSTEMPATH/Router/Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 12', 'SYSTEMPATH/Router/Router.php', 418)
+ 2 SYSTEMPATH/Router/Router.php(418): preg_match('#^search/(.*))$#u', 'search/blockchain + security', [])
+ 3 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('search/blockchain + security')
+ 4 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('search/blockchain + security')
+ 5 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:37:46 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 12
+in SYSTEMPATH/Router/Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 12', 'SYSTEMPATH/Router/Router.php', 418)
+ 2 SYSTEMPATH/Router/Router.php(418): preg_match('#^search/(.*))$#u', 'search/blockchain   security', [])
+ 3 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('search/blockchain   security')
+ 4 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('search/blockchain   security')
+ 5 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:38:22 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 12
+in SYSTEMPATH/Router/Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 12', 'SYSTEMPATH/Router/Router.php', 418)
+ 2 SYSTEMPATH/Router/Router.php(418): preg_match('#^search/(.*))$#u', 'search/blockchain   security', [])
+ 3 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('search/blockchain   security')
+ 4 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('search/blockchain   security')
+ 5 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:38:42 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 7
+in SYSTEMPATH/Router/Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 7', 'SYSTEMPATH/Router/Router.php', 418)
+ 2 SYSTEMPATH/Router/Router.php(418): preg_match('#^search)$#u', 'search/blockchain   security', [])
+ 3 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('search/blockchain   security')
+ 4 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('search/blockchain   security')
+ 5 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:38:46 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 7
+in SYSTEMPATH/Router/Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 7', 'SYSTEMPATH/Router/Router.php', 418)
+ 2 SYSTEMPATH/Router/Router.php(418): preg_match('#^search)$#u', 'search/blockchain', [])
+ 3 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes('search/blockchain')
+ 4 SYSTEMPATH/CodeIgniter.php(782): CodeIgniter\Router\Router->handle('search/blockchain')
+ 5 SYSTEMPATH/CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:39:12 --> Too few arguments to function App\Controllers\Pages::search(), 0 passed in /Users/mengfanchao/其他/codeigniter4/system/CodeIgniter.php on line 907 and exactly 3 expected
+in APPPATH/Controllers/Pages.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:39:24 --> Too few arguments to function App\Controllers\Pages::search(), 1 passed in /Users/mengfanchao/其他/codeigniter4/system/CodeIgniter.php on line 907 and exactly 3 expected
+in APPPATH/Controllers/Pages.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('blockchain')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:41:48 --> Undefined variable $limit
+in APPPATH/Controllers/Pages.php on line 17.
+ 1 APPPATH/Controllers/Pages.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $limit', 'APPPATH/Controllers/Pages.php', 17)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('blockchain   security')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-15 03:44:43 --> Array to string conversion
+in APPPATH/Controllers/Pages.php on line 19.
+ 1 APPPATH/Controllers/Pages.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH/Controllers/Pages.php', 19)
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Pages->search('blockchain   security', 'ROOTPATH/public')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

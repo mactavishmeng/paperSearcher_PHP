@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Paper Searcher</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/bootstrap-table.min.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <script>
+        MathJax = {
+            tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+        };
+    </script>
+    <script id="MathJax-script" async src="/static/js/mathjax.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center" id="title-area">
+            <div class="col col-lg-10 col-12 text-center list-inline mt-lg-5 align-items-center">
+                <img class="col col-lg-2 col-3 list-inline-item" src="/static/logo.png">
+                <h2 class="col col-9 col-lg-4 list-inline-item">Paper Searcher</h2>
+            </div>
+            <div class="col col-lg-10 col-12 mt-lg-5 mt-2">
+                <!-- 输入框组 input-group -->
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="keyword" aria-describedby="search">
+                    <span class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="search">Go!</button>
+                    </span>
+                </div>
+                <!-- /input-group -->
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col p-2 col-lg-10">
+                <!-- Bootstrap Table -->
+                <table id="table" data-card-view="true" data-show-header="false" data-pagination="true" hidden>
+                  <thead>
+                    <tr>
+                      <th data-field="TITLE" data-formatter="titleFormatter">Item Name</th>
+                      <th data-field="ID" data-formatter="operateFormatter" data-events="operateEvents">Item Price</th>
+                    </tr>
+                  </thead>
+                </table>
+                <!-- Bootstrap Table End -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 模态框（Modal） -->
+    <div class="modal fade bd-example-modal-lg" id="myModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modal—title"></h4>
+                </div>
+                <div id="abstract_text" class="modal-body">按下 ESC 按钮退出。</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/bootstrap-table.min.js"></script>
+    <script src="/static/js/index.js"></script>
+</body>
+</html>
